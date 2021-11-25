@@ -99,7 +99,7 @@
     "serve-mfe": {
       "executor": "@nrwl/workspace:run-commands",
       "options": {
-        "commands": ["nx serve login", "nx serve dashboard"]
+        "commands": ["nx serve login --liveReload=false", "nx serve dashboard --liveReload=false"]
       }
     }
   },

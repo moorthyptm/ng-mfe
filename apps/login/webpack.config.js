@@ -29,6 +29,7 @@ module.exports = {
   output: {
     uniqueName: 'login',
     publicPath: 'auto',
+    scriptType: 'text/javascript',
   },
   optimization: {
     runtimeChunk: false,

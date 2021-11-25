@@ -29,6 +29,7 @@ module.exports = {
   output: {
     uniqueName: 'dashboard',
     publicPath: 'auto',
+    scriptType: 'text/javascript',
   },
   optimization: {
     runtimeChunk: false,
